@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Simple | Deepak Soni Samples</title>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0f172a; /* Slate Blue/Black */
+            --accent: #2563eb;  /* Professional Blue */
+            --bg: #f8fafc;      /* Soft Light Grey */
+            --text: #1e293b;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Public Sans', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .prof-container {
+            width: 100%;
+            max-width: 450px;
+            background: #ffffff;
+            padding: 50px 30px;
+            border-radius: 8px; /* Sharp professional edges */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            text-align: center;
+            border-top: 5px solid var(--accent);
+        }
+
+        /* Business Profile */
+        .initials {
+            width: 70px;
+            height: 70px;
+            background: var(--primary);
+            color: #fff;
+            border-radius: 4px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1.5rem;
+        }
+
+        .name {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--primary);
+            letter-spacing: -0.025em;
+            margin-bottom: 8px;
+        }
+
+        .title {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 30px;
+            display: block;
+        }
+
+        /* Corporate Links */
+        .links-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 35px;
+        }
+
+        .link-item {
+            padding: 16px;
+            text-decoration: none;
+            color: var(--text);
+            background: #fff;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            transition: 0.2s ease;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .link-item:hover {
+            background: #f1f5f9;
+            border-color: var(--accent);
+            padding-left: 20px;
+        }
+
+        .link-item::after {
+            content: '→';
+            color: var(--accent);
+            opacity: 0.5;
+        }
+
+        /* Solid Business CTA */
+        .cta-btn {
+            display: block;
+            background: var(--accent);
+            color: #fff;
+            padding: 18px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            transition: 0.3s;
+        }
+
+        .cta-btn:hover {
+            background: var(--primary);
+            box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.2);
+        }
+
+        .sample-tag {
+            margin-top: 40px;
+            font-size: 0.7rem;
+            color: #94a3b8;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        footer {
+            margin-top: 10px;
+            font-size: 0.75rem;
+            color: #cbd5e1;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="prof-container">
+        <div class="initials">DS</div>
+
+        <h1 class="name">DEEPAK SONI</h1>
+        <span class="title">Digital Solutions Architect</span>
+
+        <div class="links-wrapper">
+            <a href="https://www.linkedin.com/in/deepaksonihr21" class="link-item" target="_blank">Professional LinkedIn</a>
+            <a href="#" class="link-item">Download Case Studies</a>
+            <a href="#" class="link-item">Client Testimonials</a>
+            <a href="mailto:deepaksonihr0021@gmail.com" class="link-item">Official Business Inquiry</a>
+        </div>
+
+        <a href="https://www.instagram.com/deepaksonihr21" class="cta-btn">REQUEST A PROPOSAL 🚀</a>
+
+        <p class="sample-tag">Standard Business Identity Setup</p>
+        <footer>MMXXVI • DEEPAKSONIHR21</footer>
+    </div>
+
+</body>
+</html>

@@ -25,7 +25,16 @@
             text-align: center;
         }
 
-        /* Profile Section */
+        /* --- Progress Indicator --- */
+        .progress-tag {
+            font-size: 0.7rem;
+            color: #aaa;
+            margin-bottom: 25px;
+            letter-spacing: 2px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
         .name {
             font-size: 2.2rem;
             font-weight: 700;
@@ -34,11 +43,10 @@
             color: #000;
         }
 
-        /* Micro Trust Tagline */
         .trust-tag {
             font-size: 0.8rem;
             font-weight: 700;
-            color: #bc13fe; /* Tera signature color hint */
+            color: #bc13fe; 
             text-transform: uppercase;
             letter-spacing: 1px;
             margin-bottom: 15px;
@@ -52,12 +60,11 @@
             line-height: 1.5;
         }
 
-        /* Links Section - Optimized Flow */
         .links-wrapper {
             display: flex;
             flex-direction: column;
             gap: 15px;
-            margin-bottom: 40px;
+            margin-bottom: 35px;
         }
 
         .link-item {
@@ -77,15 +84,25 @@
 
         .link-item:hover {
             border-color: #000;
-            background-color: #fafafa;
             transform: translateY(-3px);
         }
 
-        /* Micro Interactions */
+        /* Hover Colors for Socials */
         .ig-link:hover { border-color: #e1306c; color: #e1306c; }
         .yt-link:hover { border-color: #ff0000; color: #ff0000; }
 
-        /* Final CTA - Aggressive & Clear */
+        /* See Another Style (The Hook) */
+        .portfolio-link { 
+            border: 2px solid #bc13fe; 
+            color: #bc13fe; 
+            background: #fdf4ff;
+        }
+        .portfolio-link:hover { 
+            background-color: #bc13fe; 
+            color: #fff; 
+        }
+
+        /* CTA (The Conversion) */
         .cta-btn {
             display: block;
             background-color: #000;
@@ -106,15 +123,22 @@
             box-shadow: 0 15px 35px rgba(0,0,0,0.2);
         }
 
+        .micro-line {
+            font-size: 0.7rem; 
+            color: #94a3b8; 
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
         .sample-tag {
             margin-top: 50px;
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             color: #bbb;
             font-style: italic;
         }
 
         footer {
-            margin-top: 15px;
+            margin-top: 10px;
             font-size: 0.7rem;
             color: #eee;
             letter-spacing: 3px;
@@ -126,8 +150,9 @@
 <body>
 
     <div class="minimal-container">
+        <p class="progress-tag">Demo 1 of 4 • Explore different styles</p>
+
         <h1 class="name">DEEPAK SONI</h1>
-        
         <span class="trust-tag">Clean & Fast Web Systems</span>
 
         <p class="bio">Digital Brand Architect for creators who value precision and premium identity.</p>
@@ -135,11 +160,14 @@
         <div class="links-wrapper">
             <a href="https://www.instagram.com/deepaksonihr21" class="link-item ig-link" target="_blank">DM on Instagram 📸</a>
             <a href="https://youtube.com/@deepaksonihr21" class="link-item yt-link" target="_blank">Watch YouTube 🎥</a>
-            <a href="#" class="link-item">My Design Portfolio 📁</a>
             <a href="mailto:deepaksonihr0021@gmail.com" class="link-item">Business Enquiries ✉️</a>
+            
+            <a href="https://deepaksonihr21.github.io/Basisdemohub/n2/" class="link-item portfolio-link">See Another Style →</a>
         </div>
 
-        <a href="https://www.instagram.com/deepaksonihr21" class="cta-btn">GET YOUR SITE IN ₹999 🚀</a>
+        <a href="https://www.instagram.com/deepaksonihr21" class="cta-btn">GET YOUR WEBSITE STARTED AT ₹999 🚀</a>
+        
+        <p class="micro-line">Different styles. Same powerful result.</p>
 
         <p class="sample-tag">Customized design for each unique creator</p>
         <footer>MMXXVI • DEEPAKSONIHR21</footer>
